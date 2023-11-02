@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Facebook",
+    "url": "www.facebook.com",
+    "fontawesome": "fa-facebook",
+    "active": false
+  },
+  {
+    "name": "Twitter",
+    "url": "www.twitter.com",
+    "fontawesome": "fa-twitter",
+    "active": false
+  },
+  {
+    "name": "Linkedin",
+    "url": "www.linkedin.com",
+    "fontawesome": "fa-linkedin",
+    "active": false
+  }
+]
