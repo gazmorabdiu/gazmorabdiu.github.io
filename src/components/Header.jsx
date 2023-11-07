@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
-import logo from "../assets/img/logo.png";
-
+import { imagePath } from "../../config";
 // eslint-disable-next-line react/prop-types
 export default function Header({ activeLabel }) {
   return (
@@ -10,7 +9,11 @@ export default function Header({ activeLabel }) {
           <div className="st-main-header-in">
             <div className="st-main-header-left">
               <a className="st-site-branding" href="index.html">
-                <img src={logo} alt="Gazi" />
+                <img
+                  src={imagePath + "navbar-logo.png"}
+                  style={{ width: 100 }}
+                  alt="Gazi"
+                />
               </a>
             </div>
             <Navbar activeLabel={activeLabel} />

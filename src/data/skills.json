@@ -1,0 +1,22 @@
+[
+  {
+    "title": "NestJS",
+    "progress": 90
+  },
+  {
+    "title": "NodeJS",
+    "progress": 80
+  },
+  {
+    "title": "MongoDB",
+    "progress": 80
+  },
+  {
+    "title": "Prisma",
+    "progress": 80
+  },
+  {
+    "title": "AWS Services",
+    "progress": 60
+  }
+]

@@ -1,23 +1,23 @@
-import { useState } from "react";
-import logo from "../assets/img/section/hero-img.jpg";
+// import { imagePath } from "../../config";
+
 import socialMediaData from "../data/socialMedia.json";
+import { generateRandomId } from "../utls/functions";
+import SocialIcon from "./subComponents/SocialIcon";
+import { imagePath } from "../../config";
 
 // eslint-disable-next-line react/prop-types
 export default function Hero({ firstName, lastName, profession }) {
-  const [socialMedia /* setSocialMedia */] = useState(socialMediaData);
-
-  const socialMedias = socialMedia.map((item, index) => (
-    <a
-      key={index}
-      href={item.url}
-      className={`${item.active ? "st-social-btn active" : "st-social-btn"}`}
-    >
-      <span className="st-social-icon">
-        <i className={`fab ${item.fontawesome}`}></i>
-      </span>
-      <span className="st-icon-name">{item.name}</span>
-    </a>
-  ));
+  const socialMedias = socialMediaData.map(
+    ({ url, active, fontawesome, name }) => (
+      <SocialIcon
+        key={generateRandomId()}
+        url={url}
+        active={active}
+        fontawesome={fontawesome}
+        name={name}
+      />
+    )
+  );
   return (
     <section className="st-hero-wrap st-parallax">
       <div className="st-hero st-style1 st-ripple-version">
@@ -41,7 +41,11 @@ export default function Hero({ firstName, lastName, profession }) {
         </div>
       </div>
       <div className="st-hero-img st-to-right">
-        <img className="wow fadeInRight" src={logo} alt="Hero" />
+        <img
+          className="wow fadeInRight"
+          src={imagePath + "gazi.jpg"}
+          alt="Hero"
+        />
         <div className="st-social-group wow fadeInLeft">
           <div className="st-social-link">{socialMedias}</div>
         </div>

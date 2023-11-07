@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
-import aboutLogo from "../assets/img/section/about.jpg";
+
+import { filePath, imagePath } from "../../config";
+
 export default function About({
   fullName,
   description,
@@ -11,6 +13,11 @@ export default function About({
   language,
   freelance,
 }) {
+  const handleDownloadClick = () => {
+    const downloadLink = document.querySelector("#cv");
+    downloadLink.href = filePath + "Gazmor_Abdiu_CV.pdf"; // Set the URL to the PNG file
+    downloadLink.download = "Gazi_CV.pdf"; // Set the desired file name
+  };
   return (
     <section id="about" className="st-about-wrap">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -25,10 +32,10 @@ export default function About({
         <div className="row">
           <div className="col-lg-6 wow fadeInLeft">
             <div className="st-about-img-wrap">
-              <div
+              <img
                 className="st-about-img st-dynamic-bg st-bg"
-                data-src={aboutLogo}
-              ></div>
+                src={imagePath + "gazi.jpg"}
+              />
             </div>
             <div className="st-height-b0 st-height-lg-b30"></div>
           </div>
@@ -66,7 +73,14 @@ export default function About({
                     )}
                   </ul>
                   <div className="st-text-block-btn">
-                    <a href="#" className="st-btn st-style1 st-color1">
+                    <a
+                      id="cv"
+                      onClick={handleDownloadClick}
+                      title="CV"
+                      href="#"
+                      download={filePath + "Gazmor_Abdiu_CV.pdf"}
+                      className="st-btn st-style1 st-color1"
+                    >
                       Download CV
                     </a>
                   </div>

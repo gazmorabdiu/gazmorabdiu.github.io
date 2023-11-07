@@ -1,0 +1,17 @@
+[
+  {
+    "imageUrl": "portfolio/portfolio1.jpg",
+    "title": "Product Design",
+    "info": "Design / Marketing"
+  },
+  {
+    "imageUrl": "portfolio/portfolio2.jpg",
+    "title": "Product Design",
+    "info": "Design / Marketing"
+  },
+  {
+    "imageUrl": "portfolio/portfolio3.jpg",
+    "title": "Product Design",
+    "info": "Design / Marketing"
+  }
+]

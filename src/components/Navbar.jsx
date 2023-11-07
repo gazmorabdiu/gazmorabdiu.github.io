@@ -29,8 +29,11 @@ export default function Navbar({ activeLabel }) {
             </a>
           </li>
           <li>
-            <a href="#blog" className={getClassForNavItem("blog")}>
-              Blog
+            <a
+              href="#voluntary-work"
+              className={getClassForNavItem("voluntary-work")}
+            >
+              Voluntary Work
             </a>
           </li>
           <li>

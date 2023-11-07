@@ -1,19 +1,19 @@
 [
   {
-    "name": "Facebook",
-    "url": "www.facebook.com",
-    "fontawesome": "fa-facebook",
-    "active": false
+    "name": "Github",
+    "url": "https://github.com/eagleGazii",
+    "fontawesome": "fa-github",
+    "active": true
   },
   {
-    "name": "Twitter",
-    "url": "www.twitter.com",
-    "fontawesome": "fa-twitter",
+    "name": "Gitlab",
+    "url": "https://gitlab.com/eaglegazi",
+    "fontawesome": "fa-gitlab",
     "active": false
   },
   {
     "name": "Linkedin",
-    "url": "www.linkedin.com",
+    "url": "https://www.linkedin.com/in/gazmorabdiu/",
     "fontawesome": "fa-linkedin",
     "active": false
   }

@@ -1,0 +1,20 @@
+[
+  {
+    "postImage": "voluntaryWork/blog1.jpg",
+    "createdBy": "Admin",
+    "createdAt": "27-09-2020",
+    "shortDescription": "What are the latest trends in Graphic design according to you?"
+  },
+  {
+    "postImage": "voluntaryWork/blog2.jpg",
+    "createdBy": "Admin",
+    "createdAt": "27-09-2020",
+    "shortDescription": "What do you think makes someone a good designer?"
+  },
+  {
+    "postImage": "voluntaryWork/blog3.jpg",
+    "createdBy": "Admin",
+    "createdAt": "27-09-2020",
+    "shortDescription": "Were there any mistakes you've made as a designer"
+  }
+]

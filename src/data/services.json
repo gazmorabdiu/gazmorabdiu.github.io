@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Backend Development",
+    "description": "lorem",
+    "imageUrl": "/services/service1.png"
+  },
+  {
+    "title": "Frontend Development",
+    "description": "lorem",
+    "imageUrl": "/services/service2.png"
+  },
+  {
+    "title": "Design",
+    "description": "lorem",
+    "imageUrl": "/services/service3.png"
+  }
+]

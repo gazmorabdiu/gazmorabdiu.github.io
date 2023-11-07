@@ -11,6 +11,14 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import { useEffect, useState } from "react";
+import Service from "./components/Service";
+import Skill from "./components/Skill";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
+import Review from "./components/Review";
+import Footer from "./components/Footer";
+import VoluntaryWork from "./components/VoluntaryWork";
+import Contact from "./components/Contact";
 
 function App() {
   const [activeLabel, setActiveLabel] = useState("home");
@@ -20,10 +28,17 @@ function App() {
       const scrollPosition = window.scrollY;
       if (scrollPosition < 750) {
         setActiveLabel("home");
-      } else if (scrollPosition < 1250) {
+      } else if (scrollPosition > 750 && scrollPosition < 2700) {
         setActiveLabel("about");
+      } else if (scrollPosition > 2700 && scrollPosition < 3400) {
+        setActiveLabel("resume");
+      } else if (scrollPosition > 3400 && scrollPosition < 4400) {
+        setActiveLabel("portfolio");
+      } else if (scrollPosition > 4400 && scrollPosition < 4800) {
+        setActiveLabel("voluntary-work");
+      } else {
+        setActiveLabel("contact");
       }
-      console.log(scrollPosition);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -59,6 +74,18 @@ function App() {
         language={["Albanian", "English", "Turkish"]}
         freelance={false}
       />
+      <Service />
+      <Skill
+        skillTitle={"Lorem"}
+        firstSkillSubtitle={"lorem"}
+        secondSkillSubtitle={"lorem"}
+      />
+      <Resume />
+      <Portfolio />
+      <Review />
+      <VoluntaryWork />
+      <Contact />
+      <Footer />
     </>
   );
 }
