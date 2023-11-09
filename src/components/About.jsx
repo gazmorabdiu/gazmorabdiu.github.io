@@ -80,6 +80,8 @@ export default function About({
                       href="#"
                       download={filePath + "Gazmor_Abdiu_CV.pdf"}
                       className="st-btn st-style1 st-color1"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Download CV
                     </a>

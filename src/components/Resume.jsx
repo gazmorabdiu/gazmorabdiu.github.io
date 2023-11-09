@@ -6,25 +6,27 @@ import Experience from "./subComponents/Experience";
 
 export default function Resume() {
   const educations = educationsData.map(
-    ({ text, timelineDuration, title, schoolName }) => (
+    ({ text, timelineDuration, title, schoolName, schoolUrl }) => (
       <Education
         key={generateRandomId()}
         text={text}
         schoolName={schoolName}
         timelineDuration={timelineDuration}
         title={title}
+        schoolUrl={schoolUrl}
       />
     )
   );
 
   const experiences = experiencesData.map(
-    ({ text, timelineDuration, title, companyName }) => (
+    ({ text, timelineDuration, title, companyName, companyUrl }) => (
       <Experience
         key={generateRandomId()}
         text={text}
         companyName={companyName}
         timelineDuration={timelineDuration}
         title={title}
+        companyUrl={companyUrl}
       />
     )
   );

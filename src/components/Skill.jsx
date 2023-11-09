@@ -3,11 +3,7 @@
 import skillsData from "../data/skills.json";
 import { generateRandomId } from "../utls/functions";
 import ProgressBar from "./subComponents/ProgressBar";
-export default function Skill({
-  skillTitle,
-  firstSkillSubtitle,
-  secondSkillSubtitle,
-}) {
+export default function Skill() {
   const skillsBars = skillsData.map((item) => (
     <div key={generateRandomId()}>
       <ProgressBar title={item.title} progress={item.progress} />
@@ -30,11 +26,19 @@ export default function Skill({
           <div className="col-lg-6">
             <div className="st-skill-wrap">
               <div className="st-skill-heading">
-                <h2 className="st-skill-title">{skillTitle}</h2>
+                <h2 className="st-skill-title">
+                  Full-Stack Developer Proficient in NestJS, Node.js, React,
+                  MongoDB, and AWS Services
+                </h2>
                 <div className="st-skill-subtitle">
-                  {firstSkillSubtitle} <br />
+                  I excel in a diverse skill set encompassing NestJS, Node.js,
+                  React, and MongoDB, allowing me to craft robust and efficient
+                  applications. My expertise extends to leveraging AWS services
+                  to create scalable and secure cloud-based solutions. With a
+                  passion for innovative programming, I bring a wealth of
+                  knowledge and hands-on experience to every project, ensuring
+                  optimal performance and user satisfaction. <br />
                   <br />
-                  {secondSkillSubtitle}
                 </div>
               </div>
             </div>

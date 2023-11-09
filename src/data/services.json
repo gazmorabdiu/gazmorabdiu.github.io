@@ -1,17 +1,32 @@
 [
   {
     "title": "Backend Development",
-    "description": "lorem",
+    "description": "We provide expert web backend services, handling server-side development, databases, and APIs to ensure seamless functionality and exceptional user experiences for websites and applications.",
     "imageUrl": "/services/service1.png"
   },
   {
     "title": "Frontend Development",
-    "description": "lorem",
+    "description": "We specialize in web frontend services, crafting intuitive user interfaces and engaging user experiences. Our expertise ensures visually appealing, responsive, and user-friendly websites and applications tailored to your needs.",
     "imageUrl": "/services/service2.png"
   },
   {
-    "title": "Design",
-    "description": "lorem",
+    "title": "Mobile App Development",
+    "description": "We offer mobile app development services, creating innovative and user-friendly applications for iOS and Android platforms. Our skilled developers bring your ideas to life, delivering seamless and high-performing mobile experiences tailored to your business goals.",
     "imageUrl": "/services/service3.png"
+  },
+  {
+    "title": "Web Design",
+    "description": "Transform your online presence with our expert web design services. We craft visually captivating and user-friendly websites tailored to your brand. Our skilled designers bring your ideas to life, ensuring a seamless and engaging user experience. Elevate your business with a stunning website designed just for you.",
+    "imageUrl": "/services/service4.png"
+  },
+  {
+    "title": "Digital Marketing",
+    "description": "Boost your online presence with our tailored Digital Marketing services. We specialize in maximizing your brand's visibility and engagement. From targeted social media campaigns to SEO strategies, we drive results. Let us optimize your digital footprint and elevate your business to new heights.",
+    "imageUrl": "/services/service5.png"
+  },
+  {
+    "title": "It Customer Service",
+    "description": "Experience seamless IT customer service with us. Our dedicated support team is here to resolve your technical challenges promptly and efficiently. From troubleshooting to personalized solutions, we ensure your technology works for you. Trust us for reliable IT support tailored to your needs.",
+    "imageUrl": "/services/service6.png"
   }
 ]

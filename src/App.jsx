@@ -24,17 +24,25 @@ function App() {
   const [activeLabel, setActiveLabel] = useState("home");
 
   useEffect(() => {
+    // TODO: get all sections using querySelector and check with id ?
+    // or package
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
+      const aboutSection = document.querySelector("#about").offsetTop;
+      const resumeSection = document.querySelector("#resume").offsetTop;
+      const portfolioSection = document.querySelector("#portfolio").offsetTop;
+      const voluntaryWorkSection =
+        document.querySelector("#voluntary-work").offsetTop;
+      // const contactSection = document.querySelector("#contact").offsetTop;
       if (scrollPosition < 750) {
         setActiveLabel("home");
-      } else if (scrollPosition > 750 && scrollPosition < 2700) {
+      } else if (scrollPosition < aboutSection) {
         setActiveLabel("about");
-      } else if (scrollPosition > 2700 && scrollPosition < 3400) {
+      } else if (scrollPosition < resumeSection) {
         setActiveLabel("resume");
-      } else if (scrollPosition > 3400 && scrollPosition < 4400) {
+      } else if (scrollPosition < portfolioSection) {
         setActiveLabel("portfolio");
-      } else if (scrollPosition > 4400 && scrollPosition < 4800) {
+      } else if (scrollPosition < voluntaryWorkSection) {
         setActiveLabel("voluntary-work");
       } else {
         setActiveLabel("contact");
@@ -75,11 +83,7 @@ function App() {
         freelance={false}
       />
       <Service />
-      <Skill
-        skillTitle={"Lorem"}
-        firstSkillSubtitle={"lorem"}
-        secondSkillSubtitle={"lorem"}
-      />
+      <Skill />
       <Resume />
       <Portfolio />
       <Review />

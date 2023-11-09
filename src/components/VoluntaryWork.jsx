@@ -5,14 +5,13 @@ import Post from "./subComponents/Post";
 export default function VoluntaryWork() {
   const voluntaryWorks = voluntaryWorksData.map(
     ({ postImage, createdAt, createdBy, shortDescription }) => (
-      <div key={generateRandomId()} className="col-lg-4">
-        <Post
-          postImage={postImage}
-          createdAt={createdAt}
-          createdBy={createdBy}
-          shortDescription={shortDescription}
-        />
-      </div>
+      <Post
+        key={generateRandomId()}
+        postImage={postImage}
+        createdAt={createdAt}
+        createdBy={createdBy}
+        shortDescription={shortDescription}
+      />
     )
   );
   return (

@@ -5,14 +5,13 @@ import { generateRandomId } from "../utls/functions";
 export default function Review() {
   const comments = reviewsData.map(
     ({ comment, imageUrl, fullName, occupation }) => (
-      <div key={generateRandomId()} className="col-lg-4">
-        <Comment
-          comment={comment}
-          imageUrl={imageUrl}
-          fullName={fullName}
-          occupation={occupation}
-        />
-      </div>
+      <Comment
+        key={generateRandomId()}
+        comment={comment}
+        imageUrl={imageUrl}
+        fullName={fullName}
+        occupation={occupation}
+      />
     )
   );
   return (
