@@ -61,7 +61,7 @@ export default function About({
                       <span>Email</span> : <span>{email}</span>
                     </li>
                     <li>
-                      <span>From</span> :<span>{address}</span>
+                      <span>From</span> : <span>{address}</span>
                     </li>
                     <li>
                       <span>Language</span> : <span>{language.join(", ")}</span>

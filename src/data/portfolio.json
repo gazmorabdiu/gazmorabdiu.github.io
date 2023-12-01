@@ -1,17 +1,63 @@
 [
   {
+    "id": 1,
     "imageUrl": "portfolio/portfolio1.jpg",
-    "title": "Product Design",
-    "info": "Design / Marketing"
+    "title": "Natours",
+    "info": "Your Passport to Adventure!"
   },
   {
+    "id": 2,
     "imageUrl": "portfolio/portfolio2.jpg",
-    "title": "Product Design",
-    "info": "Design / Marketing"
+    "title": "E-Commerce",
+    "info": "Click, Shop, Enjoy: Your Online Retail Haven"
   },
   {
+    "id": 3,
     "imageUrl": "portfolio/portfolio3.jpg",
-    "title": "Product Design",
-    "info": "Design / Marketing"
+    "title": "HandyMan",
+    "info": "FixIt Pro: Your Handyman Hero"
+  },
+  {
+    "id": 4,
+    "imageUrl": "portfolio/portfolio4.jpeg",
+    "title": "Quantum SVM",
+    "info": "Bridging Classical and Quantum Worlds"
+  },
+  {
+    "id": 5,
+    "imageUrl": "portfolio/portfolio5.jpg",
+    "title": "Java Flight Booker",
+    "info": "Airplane Ticket Reservations"
+  },
+  {
+    "id": 6,
+    "imageUrl": "portfolio/portfolio6.jpeg",
+    "title": "",
+    "info": "Graph Exploration at Its Core"
+  },
+
+  {
+    "id": 7,
+    "imageUrl": "portfolio/portfolio7.jpeg",
+    "title": "",
+    "info": "Optimal Pathfinding in a Snap"
+  },
+  {
+    "id": 8,
+    "imageUrl": "portfolio/portfolio8.jpeg",
+    "title": "",
+    "info": "Neighbor-Aware Exploration"
+  },
+  {
+    "id": 9,
+    "imageUrl": "portfolio/portfolio9.jpeg",
+    "title": "",
+    "info": "Flooding Based Asynchronous Spanning Tree Construction"
+  },
+  {
+    "id": 10,
+    "imageUrl": "portfolio/portfolio10.jpeg",
+    "title": "",
+    "info": "Flooding Based Asynchronous Spanning Tree Construction"
   }
 ]

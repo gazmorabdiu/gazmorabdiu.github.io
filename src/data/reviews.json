@@ -1,20 +1,20 @@
 [
   {
-    "comment": "Lorem",
-    "occupation": "Full Stack Web Developer",
-    "fullName": "John Jim",
+    "comment": "Outstanding team player! Reliable, collaborative, and always willing to go the extra mile to achieve team goals. Excellent communication skills and a positive influence on the group dynamic. A valuable asset to any collaborative effort, making the team stronger and more cohesive.",
+    "occupation": "Web Software Developer",
+    "fullName": "Sedat Duraki",
     "imageUrl": "review/client1.png"
   },
   {
-    "comment": "Lorem",
-    "occupation": "Project Manager",
-    "fullName": "Julia Smith",
+    "comment": "Exceptional programmer! Proficient in a variety of languages and technologies, consistently delivering high-quality code. Demonstrates a keen problem-solving ability and an aptitude for tackling complex challenges. Highly collaborative, communicates effectively, and always meets deadlines. A reliable and valuable asset to any development team.",
+    "occupation": "Software Developer",
+    "fullName": "Shaban Shabani",
     "imageUrl": "review/client2.png"
   },
   {
-    "comment": "Lorem",
-    "occupation": "Doctor of Computer Engineering",
-    "fullName": "Burak Yilmaz",
+    "comment": "Thrilled with the service! The team went above and beyond to meet my needs. Excellent communication, prompt responses, and a genuine commitment to customer satisfaction. The end result exceeded my expectations, and I couldn't be happier. A truly positive and enjoyable experience—I highly recommend their services!",
+    "occupation": "Client",
+    "fullName": "John Jim",
     "imageUrl": "review/client3.png"
   }
 ]

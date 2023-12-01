@@ -1,5 +1,5 @@
 import { voluntaryWorksData } from "../data";
-import { generateRandomId } from "../utls/functions";
+import { generateRandomId } from "../utils/functions";
 import Post from "./subComponents/Post";
 
 export default function VoluntaryWork() {
@@ -20,7 +20,7 @@ export default function VoluntaryWork() {
       <div className="container">
         <div className="st-section-heading st-style1">
           <h4 className="st-section-heading-title">VOLUNTARY WORK</h4>
-          <h2 className="st-section-heading-subtitle">LATEST WORKS</h2>
+          <h2 className="st-section-heading-subtitle">VOLUNTARY</h2>
         </div>
         <div className="st-height-b25 st-height-lg-b25"></div>
       </div>

@@ -1,5 +1,5 @@
 import { socialMedialData } from "../data";
-import { generateRandomId } from "../utls/functions";
+import { generateRandomId } from "../utils/functions";
 import Info from "./subComponents/Info";
 import SocialIcon from "./subComponents/SocialIcon";
 

@@ -28,25 +28,26 @@ function App() {
     // or package
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const aboutSection = document.querySelector("#about").offsetTop;
-      const resumeSection = document.querySelector("#resume").offsetTop;
-      const portfolioSection = document.querySelector("#portfolio").offsetTop;
-      const voluntaryWorkSection =
-        document.querySelector("#voluntary-work").offsetTop;
-      // const contactSection = document.querySelector("#contact").offsetTop;
-      if (scrollPosition < 750) {
-        setActiveLabel("home");
-      } else if (scrollPosition < aboutSection) {
-        setActiveLabel("about");
-      } else if (scrollPosition < resumeSection) {
-        setActiveLabel("resume");
-      } else if (scrollPosition < portfolioSection) {
-        setActiveLabel("portfolio");
-      } else if (scrollPosition < voluntaryWorkSection) {
-        setActiveLabel("voluntary-work");
-      } else {
-        setActiveLabel("contact");
-      }
+
+      const sections = document.querySelectorAll("section");
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop - 50;
+        if (scrollPosition >= sectionTop) {
+          const id = section.getAttribute("id");
+          if (
+            [
+              "home",
+              "about",
+              "resume",
+              "portfolio",
+              "voluntary-work",
+              "contact",
+            ].includes(id)
+          ) {
+            setActiveLabel(id);
+          }
+        }
+      });
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -78,7 +79,7 @@ function App() {
         birthday="May 16, 1996"
         phoneNumber="+383 49 531 486"
         email="gazmorabdiu@hotmail.com"
-        address="Kosovo, Prishtina, Aktash"
+        address="Kosovo, Prishtina"
         language={["Albanian", "English", "Turkish"]}
         freelance={false}
       />

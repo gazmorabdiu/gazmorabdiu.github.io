@@ -1,6 +1,6 @@
 import { imagePath } from "../../config";
 import { educationsData, experiencesData } from "../data";
-import { generateRandomId } from "../utls/functions/generateRandomId";
+import { generateRandomId } from "../utils/functions";
 import Education from "./subComponents/Education";
 import Experience from "./subComponents/Experience";
 
@@ -18,13 +18,26 @@ export default function Resume() {
     )
   );
 
+  const calculatePresentWorkTime = (string) => {
+    if (string.includes("Present")) {
+      const splitString = string.split(" ");
+      const startDate = new Date(`${splitString[0]} ${splitString[1]}`);
+      const today = new Date(Date.now());
+
+      const monthsDifference =
+        (today.getFullYear() - startDate.getFullYear()) * 12 +
+        (today.getMonth() - startDate.getMonth());
+      return `${string} (${monthsDifference} months)`;
+    }
+    return string;
+  };
   const experiences = experiencesData.map(
     ({ text, timelineDuration, title, companyName, companyUrl }) => (
       <Experience
         key={generateRandomId()}
         text={text}
         companyName={companyName}
-        timelineDuration={timelineDuration}
+        timelineDuration={calculatePresentWorkTime(timelineDuration)}
         title={title}
         companyUrl={companyUrl}
       />

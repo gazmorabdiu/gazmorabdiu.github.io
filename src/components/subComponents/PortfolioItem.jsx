@@ -10,8 +10,15 @@ export default function PortfolioItem({ imageUrl, title, info }) {
             href="assets/img/portfolio/portfolio2_lg.jpg"
             className="st-portfolio st-zoom st-lightbox-item"
           >
-            <div className="st-portfolio-img st-zoom-in">
-              <img src={imagePath + imageUrl} alt="portfolio" />
+            <div
+              className="st-portfolio-img st-zoom-in"
+              style={{ width: "430px", height: "300px", overflow: "hidden" }}
+            >
+              <img
+                src={imagePath + imageUrl}
+                alt={title}
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
             <div className="st-portfolio-item-hover">
               <i className="fas fa-plus-circle"></i>

@@ -1,7 +1,7 @@
 // import { imagePath } from "../../config";
 
 import socialMediaData from "../data/socialMedia.json";
-import { generateRandomId } from "../utls/functions";
+import { generateRandomId } from "../utils/functions";
 import SocialIcon from "./subComponents/SocialIcon";
 import { imagePath } from "../../config";
 
@@ -19,7 +19,7 @@ export default function Hero({ firstName, lastName, profession }) {
     )
   );
   return (
-    <section className="st-hero-wrap st-parallax">
+    <section className="st-hero-wrap st-parallax" id="home">
       <div className="st-hero st-style1 st-ripple-version">
         <div className="container">
           <div className="st-hero-text">

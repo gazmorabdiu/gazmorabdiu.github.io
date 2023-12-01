@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import skillsData from "../data/skills.json";
-import { generateRandomId } from "../utls/functions";
+import { generateRandomId } from "../utils/functions";
 import ProgressBar from "./subComponents/ProgressBar";
 export default function Skill() {
   const skillsBars = skillsData.map((item) => (
@@ -27,8 +27,7 @@ export default function Skill() {
             <div className="st-skill-wrap">
               <div className="st-skill-heading">
                 <h2 className="st-skill-title">
-                  Full-Stack Developer Proficient in NestJS, Node.js, React,
-                  MongoDB, and AWS Services
+                  Junior Full-Stack Javascript Developer
                 </h2>
                 <div className="st-skill-subtitle">
                   I excel in a diverse skill set encompassing NestJS, Node.js,

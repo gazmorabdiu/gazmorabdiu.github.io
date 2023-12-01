@@ -1,6 +1,6 @@
 import Comment from "./subComponents/Comment";
 import { reviewsData } from "../data";
-import { generateRandomId } from "../utls/functions";
+import { generateRandomId } from "../utils/functions";
 
 export default function Review() {
   const comments = reviewsData.map(
