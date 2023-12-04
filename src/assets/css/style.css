@@ -1762,7 +1762,9 @@ canvas {
   position: relative;
   margin-bottom: 30px;
 }
-
+.navbar-item {
+  cursor: pointer;
+}
 .st-portfolio::before {
   content: "";
   position: absolute;

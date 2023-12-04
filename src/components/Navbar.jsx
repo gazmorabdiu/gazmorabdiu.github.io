@@ -1,7 +1,11 @@
+import { Link } from "react-scroll";
+
 // eslint-disable-next-line react/prop-types
 export default function Navbar({ activeLabel }) {
   const getClassForNavItem = (item) => {
-    return item === activeLabel ? "st-smooth-move active" : "st-smooth-move";
+    return item === activeLabel
+      ? "navbar-item st-smooth-move active"
+      : "navbar-item st-smooth-move";
   };
 
   return (
@@ -9,37 +13,64 @@ export default function Navbar({ activeLabel }) {
       <div className="st-nav">
         <ul className="st-nav-list st-onepage-nav">
           <li>
-            <a href="#home" className={getClassForNavItem("home")}>
+            <Link
+              to="home"
+              className={getClassForNavItem("home")}
+              smooth={true}
+              duration={300}
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#about" className={getClassForNavItem("about")}>
+            <Link
+              to="about"
+              className={getClassForNavItem("about")}
+              smooth={true}
+              duration={300}
+            >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#resume" className={getClassForNavItem("resume")}>
+            <Link
+              to="resume"
+              className={getClassForNavItem("resume")}
+              smooth={true}
+              duration={300}
+            >
               Resume
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#portfolio" className={getClassForNavItem("portfolio")}>
+            <Link
+              to="portfolio"
+              className={getClassForNavItem("portfolio")}
+              smooth={true}
+              duration={300}
+            >
               Portfolio
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#voluntary-work"
+            <Link
+              to="voluntary-work"
               className={getClassForNavItem("voluntary-work")}
+              smooth={true}
+              duration={300}
             >
               Voluntary Work
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#contact" className={getClassForNavItem("contact")}>
+            <Link
+              to="contact"
+              className={getClassForNavItem("contact")}
+              smooth={true}
+              duration={300}
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="sp-phone">
