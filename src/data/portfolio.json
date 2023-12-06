@@ -1,63 +1,133 @@
 [
   {
     "id": 1,
-    "imageUrl": "portfolio/portfolio1.jpg",
+    "imageUrl": "portfolio/portfolio1.1.png",
+    "firstDetailsImage": "portfolio/portfolio1.2.png",
     "title": "Natours",
-    "info": "Your Passport to Adventure!"
+    "info": "Your Passport to Adventure!",
+    "date": "Sep 2022 - Jan 2023",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "tags": "NodeJS, ExpressJS, Mongodb, Pug Template, Javascript",
+    "postShareUrl": ""
   },
   {
     "id": 2,
     "imageUrl": "portfolio/portfolio2.jpg",
     "title": "E-Commerce",
-    "info": "Click, Shop, Enjoy: Your Online Retail Haven"
+    "info": "Click, Shop, Enjoy: Your Online Retail Haven",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
   {
     "id": 3,
     "imageUrl": "portfolio/portfolio3.jpg",
     "title": "HandyMan",
-    "info": "FixIt Pro: Your Handyman Hero"
+    "info": "FixIt Pro: Your Handyman Hero",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
   {
     "id": 4,
     "imageUrl": "portfolio/portfolio4.jpeg",
     "title": "Quantum SVM",
-    "info": "Bridging Classical and Quantum Worlds"
+    "info": "Bridging Classical and Quantum Worlds",
+    "date": "",
+    "createdBy": "Gazmor Abdiu, Gildas Dekajevi, Omar Halabi",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
   {
     "id": 5,
     "imageUrl": "portfolio/portfolio5.jpg",
     "title": "Java Flight Booker",
-    "info": "Airplane Ticket Reservations"
+    "info": "Airplane Ticket Reservations",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
   {
     "id": 6,
     "imageUrl": "portfolio/portfolio6.jpeg",
     "title": "",
-    "info": "Graph Exploration at Its Core"
+    "info": "Graph Exploration at Its Core",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
 
   {
     "id": 7,
     "imageUrl": "portfolio/portfolio7.jpeg",
     "title": "",
-    "info": "Optimal Pathfinding in a Snap"
+    "info": "Optimal Pathfinding in a Snap",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
   {
     "id": 8,
     "imageUrl": "portfolio/portfolio8.jpeg",
     "title": "",
-    "info": "Neighbor-Aware Exploration"
+    "info": "Neighbor-Aware Exploration",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
   {
     "id": 9,
     "imageUrl": "portfolio/portfolio9.jpeg",
     "title": "",
-    "info": "Flooding Based Asynchronous Spanning Tree Construction"
+    "info": "Flooding Based Asynchronous Spanning Tree Construction",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   },
   {
     "id": 10,
     "imageUrl": "portfolio/portfolio10.jpeg",
     "title": "",
-    "info": "Flooding Based Asynchronous Spanning Tree Construction"
+    "info": "Flooding Based Asynchronous Spanning Tree Construction",
+    "date": "",
+    "createdBy": "Gazmor Abdiu",
+    "longDescription": "",
+    "details": "",
+    "videoUrl": "",
+    "tags": "",
+    "postShareUrl": ""
   }
 ]

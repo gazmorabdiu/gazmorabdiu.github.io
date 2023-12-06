@@ -8,13 +8,14 @@ import "./assets/css/flaticon.css";
 import "./assets/css/select2.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
+import PostDetails from "./components/PostDetails";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />} />
-        {/* <Route path="/home" element={<div>Hello</div>} /> */}
+        <Route path="/:slug" element={<PostDetails />} />
       </Routes>
     </BrowserRouter>
   );

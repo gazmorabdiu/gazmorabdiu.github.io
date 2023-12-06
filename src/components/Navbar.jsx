@@ -1,7 +1,8 @@
 import { Link } from "react-scroll";
+import { Link as DomLink } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export default function Navbar({ activeLabel }) {
+export default function Navbar({ activeLabel, postDetails }) {
   const getClassForNavItem = (item) => {
     return item === activeLabel
       ? "navbar-item st-smooth-move active"
@@ -12,66 +13,76 @@ export default function Navbar({ activeLabel }) {
     <div className="st-main-header-right">
       <div className="st-nav">
         <ul className="st-nav-list st-onepage-nav">
-          <li>
-            <Link
-              to="home"
-              className={getClassForNavItem("home")}
-              smooth={true}
-              duration={300}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="about"
-              className={getClassForNavItem("about")}
-              smooth={true}
-              duration={300}
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="resume"
-              className={getClassForNavItem("resume")}
-              smooth={true}
-              duration={300}
-            >
-              Resume
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="portfolio"
-              className={getClassForNavItem("portfolio")}
-              smooth={true}
-              duration={300}
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="voluntary-work"
-              className={getClassForNavItem("voluntary-work")}
-              smooth={true}
-              duration={300}
-            >
-              Voluntary Work
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="contact"
-              className={getClassForNavItem("contact")}
-              smooth={true}
-              duration={300}
-            >
-              Contact
-            </Link>
-          </li>
+          {postDetails ? (
+            <>
+              <li>
+                <DomLink to="/">Home</DomLink>
+              </li>{" "}
+            </>
+          ) : (
+            <>
+              <li>
+                <Link
+                  to="home"
+                  className={getClassForNavItem("home")}
+                  smooth={true}
+                  duration={300}
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="about"
+                  className={getClassForNavItem("about")}
+                  smooth={true}
+                  duration={300}
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="resume"
+                  className={getClassForNavItem("resume")}
+                  smooth={true}
+                  duration={300}
+                >
+                  Resume
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="portfolio"
+                  className={getClassForNavItem("portfolio")}
+                  smooth={true}
+                  duration={300}
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="voluntary-work"
+                  className={getClassForNavItem("voluntary-work")}
+                  smooth={true}
+                  duration={300}
+                >
+                  Voluntary Work
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="contact"
+                  className={getClassForNavItem("contact")}
+                  smooth={true}
+                  duration={300}
+                >
+                  Contact
+                </Link>
+              </li>
+            </>
+          )}
         </ul>
         <div className="sp-phone">
           <svg viewBox="0 0 513.64 513.64">

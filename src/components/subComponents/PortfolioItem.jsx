@@ -7,7 +7,7 @@ export default function PortfolioItem({ imageUrl, title, info }) {
       <div className="st-portfolio-single st-style1 st-lightgallery">
         <div className="st-portfolio-item">
           <a
-            href="assets/img/portfolio/portfolio2_lg.jpg"
+            href={`/${info.split(" ").join("_").toLowerCase()}`}
             className="st-portfolio st-zoom st-lightbox-item"
           >
             <div

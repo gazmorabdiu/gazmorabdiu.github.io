@@ -86,5 +86,7 @@ export default function Main() {
     </>
   );
 
-  return <Layout activeLabel={activeLabel} content={content} />;
+  return (
+    <Layout activeLabel={activeLabel} content={content} postDetails={false} />
+  );
 }
