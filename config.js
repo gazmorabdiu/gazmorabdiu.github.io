@@ -1,4 +1,4 @@
-const imagePath = "http://localhost:5173/public/img/";
-const filePath = "http://localhost:5173/public/files/";
+const imagePath = "./src/assets/img";
+const filePath = "./src/assets/files";
 
 export { imagePath, filePath };
