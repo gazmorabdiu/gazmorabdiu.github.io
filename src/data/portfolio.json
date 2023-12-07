@@ -10,11 +10,14 @@
     "longDescription": "",
     "details": "",
     "tags": "NodeJS, ExpressJS, Mongodb, Pug Template, Javascript",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
   {
     "id": 2,
-    "imageUrl": "portfolio/portfolio2.jpg",
+    "imageUrl": "portfolio/portfolio2.jpeg",
+    "firstDetailsImage": "portfolio/portfolio2.2.jpg",
+
     "title": "E-Commerce",
     "info": "Click, Shop, Enjoy: Your Online Retail Haven",
     "date": "",
@@ -23,7 +26,8 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
   {
     "id": 3,
@@ -36,7 +40,8 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
   {
     "id": 4,
@@ -49,23 +54,12 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
+
   {
     "id": 5,
-    "imageUrl": "portfolio/portfolio5.jpg",
-    "title": "Java Flight Booker",
-    "info": "Airplane Ticket Reservations",
-    "date": "",
-    "createdBy": "Gazmor Abdiu",
-    "longDescription": "",
-    "details": "",
-    "videoUrl": "",
-    "tags": "",
-    "postShareUrl": ""
-  },
-  {
-    "id": 6,
     "imageUrl": "portfolio/portfolio6.jpeg",
     "title": "",
     "info": "Graph Exploration at Its Core",
@@ -75,11 +69,12 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
 
   {
-    "id": 7,
+    "id": 6,
     "imageUrl": "portfolio/portfolio7.jpeg",
     "title": "",
     "info": "Optimal Pathfinding in a Snap",
@@ -89,10 +84,11 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
   {
-    "id": 8,
+    "id": 7,
     "imageUrl": "portfolio/portfolio8.jpeg",
     "title": "",
     "info": "Neighbor-Aware Exploration",
@@ -102,10 +98,11 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
   {
-    "id": 9,
+    "id": 8,
     "imageUrl": "portfolio/portfolio9.jpeg",
     "title": "",
     "info": "Flooding Based Asynchronous Spanning Tree Construction",
@@ -115,10 +112,11 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   },
   {
-    "id": 10,
+    "id": 9,
     "imageUrl": "portfolio/portfolio10.jpeg",
     "title": "",
     "info": "Flooding Based Asynchronous Spanning Tree Construction",
@@ -128,6 +126,7 @@
     "details": "",
     "videoUrl": "",
     "tags": "",
-    "postShareUrl": ""
+    "postSource": "",
+    "comments": []
   }
 ]
